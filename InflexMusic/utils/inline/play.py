@@ -61,10 +61,10 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/THUNDERDEVS"),
-             InlineKeyboardButton(text="๏ ᴧᴅᴅ ϻє ๏", url=f"https://t.me/{app.username}?startgroup=true"),
-             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+PaEtaAu9DI9mYzc9")        ],
-        [ InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_GROUP),
+        ],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
